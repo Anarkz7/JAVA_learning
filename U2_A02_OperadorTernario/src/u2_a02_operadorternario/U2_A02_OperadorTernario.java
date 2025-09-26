@@ -14,8 +14,7 @@ public class U2_A02_OperadorTernario {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
         
         int num1, num2;
         int mayor, menor;
@@ -26,6 +25,7 @@ public class U2_A02_OperadorTernario {
         num2 = sc.nextInt();
         
         mayor = num1 > num2 ? num1 : num2;
+        //si nu
         menor = num1 < num2 ? num1 : num2;
         System.out.printf("El numero %d es mayor que %d.\n", mayor, menor);
         

@@ -22,14 +22,15 @@ public class U2_A03_Concierto {
         System.out.print("Cúantas entradas se han vendido: ");
         int EntradasVendidas = sc.nextInt(); // crea la variable EntradasVendidas y le introduce un valor int por consola.
         
-        //Calcula la recaudación
         double recaudacion = PrecioEntrada * EntradasVendidas;
         
-        //Valida el aforo
-        if (EntradasVendidas > aforo) {
+        //1. VALIDA EL AFORO.
+        if (EntradasVendidas > aforo {
             System.out.println("No disponible. El número de entradas vendidas no puede superar el aforo máximo.\nRecaudación no obtenida.");
             recaudacion = 0;
-        } else (EntradasVendidas < aforo * 0.20)
+        } else {
+            
+            if  (EntradasVendidas < aforo * 0.20) {
             System.out.printf("Lo siento. Concierto Cancelado.\nSe han reacudado: %.2feuros.\nGracias.", recaudacion);
             recaudacion = 0;
         }

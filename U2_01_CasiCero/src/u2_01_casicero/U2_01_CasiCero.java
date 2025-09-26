@@ -11,8 +11,8 @@ import java.util.Scanner;
 public class U2_01_CasiCero {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        //sc.useLocale(Locale.US);
         
         System.out.print("Introduce un número para comprobar si es casi cero: ");
         double numero = sc.nextDouble();
